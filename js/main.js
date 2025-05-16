@@ -5,7 +5,7 @@ const menu = document.querySelector('.header__menu');
 menuBtn.addEventListener('click', function(){
 	menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
-})
+});
 
 
 // menuItem.forEach (function(menuItem) {
