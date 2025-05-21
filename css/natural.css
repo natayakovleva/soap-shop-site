@@ -1,0 +1,62 @@
+.natural {
+  margin-top: 50px;
+}
+
+.natural__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.natural-bg {
+  padding-top: 50px;
+}
+
+.natural-bg img {
+  width: 272px;
+  text-align: center;
+}
+
+.natural__content img {
+  height: 32px;
+}
+
+.natural__description {
+  color: rgb(165, 148, 137);
+}
+
+.natural__list {
+  margin-top: 25px;
+}
+
+.natural__item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: rgb(165, 148, 137);
+  line-height: 28.9px;
+}
+
+.natural__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/leaf.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.natural__text {
+  color: rgb(180, 167, 158);
+  line-height: 28.9px;
+}
+
+.natural__btn {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}

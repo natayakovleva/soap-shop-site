@@ -1,14 +1,10 @@
-
 .hero {
   padding: 110px 24px;
-  background-color: #FBF0E5;
-}
-
-.hero__caption {
-  font-family: "Niconne", cursive;
-  font-size: 22px;
-  line-height: 22px;
-  color: rgb(235, 186, 169);
+  background-color: #FEF4E8; 
+  background-image: url("../img/bg-1.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -25,9 +21,6 @@
 }
 
 .hero__description {
-  margin-top: 35px;
-  font-size: 20px;
-  line-height: 30px;
   color: rgb(153, 136, 125);
 }
 
