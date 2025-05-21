@@ -1,10 +1,46 @@
+.choice {
+  padding: 90px 0;
+  background-color: #c1e5e0;
+}
 
+.choice__caption {
+  color: rgb(135, 153, 145);
+}
 
-
-.choice__content img {
+.choice img {
   height: 32px;
 }
 
 .choice__title {
   color: rgb(61, 125, 114);
 }
+
+.choice__description {
+  color: rgb(113, 137, 125);
+}
+
+.choice__text {
+  line-height: 28.9px;
+  color: rgb(134, 134, 134);
+}
+
+.choice__slide {
+  margin-top: 20px;
+  /* position: relative; */
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 80%;
+  height: 80%;
+}
+

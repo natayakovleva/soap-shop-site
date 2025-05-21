@@ -21,6 +21,10 @@
   height: 32px;
 }
 
+.natural__caption {
+  color: rgb(235, 186, 169);
+}
+
 .natural__description {
   color: rgb(165, 148, 137);
 }

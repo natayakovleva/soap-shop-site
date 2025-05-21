@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soap Shop</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css" />
+    
   </head>
   <body>
     <header class="header">
@@ -113,11 +115,43 @@
           <h2 class="choice__title title">Matcha Green Soap</h2>
           <img src="/img/qwq.svg" alt="img after title" />
           <p class="choice__description text__description">
-            Matcha is not only a delicious tea but also our new homemade soap, which we are proud to present to you.
+            Matcha is not only a delicious tea but also our new homemade soap,
+            which we are proud to present to you.
           </p>
+          <p class="choice__text">
+            Matcha has a huge number of useful effects. It contains theanine and
+            catechin. Theanine is considered to be a powerful yet gentle natural
+            antidepressant. Catechin is a very powerful antioxidant that works
+            to rejuvenate our body. Now you can experience all these benefits of
+            matcha in our artisan soap.
+          </p>
+          <div class="choice__slide">
+            <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/slider-1/01l.svg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slider-1/02l.svg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slider-1/03l.svg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slider-1/04l.svg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slider-1/05l.svg" alt="slide">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          </div>
+          
         </div>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
